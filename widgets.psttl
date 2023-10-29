@@ -1,0 +1,77 @@
+Matrix widgets
+  bevatten html
+  bevatten javascript
+  kunnen communiceren
+  zijn een iframe
+  hebben een url
+  hebben metadata
+  zijn Room widgets
+  zijn User widgets
+een iframe
+  embedded in een Matrix client
+een Matrix client
+  zoals Element
+  zoals een eigen app
+  zoals een site
+eigen app
+Room widgets
+  worden opgeslagen als m.widget
+m.widget
+  is een event
+  hoort bij de room status
+event
+  heeft een state_key
+  bevat content
+  bevat waitForIframeLoad
+waitForIframeLoad
+  als false dan verwacht content_loaded
+  als true dan verwacht onLoad
+verwacht content_loaded
+  gestuurd door widget
+verwacht onLoad
+  gestuurd door DOM
+content
+  bevat data
+  bevat type
+  bevat url
+  bevat name
+type
+  is verplicht
+  is voor groeperen
+url
+  kent variabele voor data keys
+  kent variabele voor user id
+  kent variabele voor room id
+  kent variabele voor user display name
+  kent variabele voor avatar url
+data keys
+user id
+room id
+user display name
+avatar url
+de room status
+User widgets
+  worden opgeslagen als m.widgets
+m.widgets
+  is een event
+  hoort bij een gebruikersprofiel
+state_key
+  is een widget sessie id
+widget sessie id
+communiceren
+  met een Matrix client
+  zoals verzoek om permissie
+  via Window.postMessage
+Window.postMessage
+  has api fromWidget
+  has api toWidget
+verzoek om permissie
+  voor acties
+acties
+  namens een gebruiker
+  zoals berichten plaatsen
+  zoals berichten ontvangen
+berichten plaatsen
+  in de timeline van de gebruiker
+timeline van de gebruiker
+berichten ontvangen

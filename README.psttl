@@ -1,0 +1,39 @@
+bij de digitale werkplaats inloop
+  bouwen we aan een eigen chat client
+eigen chat client
+  werkt met het Matrix protocol
+  met ontwikkelplan
+ontwikkelplan
+  omvat login
+  omvat room list opvragen
+  omvat berichten ontvangen
+  omvat berichten versturen
+login
+  is gelukt
+room list opvragen
+  is gelukt
+berichten ontvangen
+berichten versturen
+het Matrix protocol
+  wordt gebruikt door Element
+  kan federatief gebruikt worden
+federatief gebruikt worden
+Element
+  is een mobiele chat app
+  is een Matrix client
+  is als Whatsapp en Telegram
+  is als Signal
+  verbindt met Matrix server
+mobiele chat app
+Whatsapp en Telegram
+  server is niet open source
+Signal
+  is open source
+  is geschreven in Java
+  kan niet federatief gebruikt worden
+Matrix client
+  is open source
+Matrix server
+  is open source
+open source
+  geeft eigen controle
